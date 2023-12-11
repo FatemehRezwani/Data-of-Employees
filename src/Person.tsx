@@ -1,3 +1,5 @@
+//difinit types for var, arays, boolean
+
 interface Props{
     name: string;
     email: string;
@@ -16,6 +18,10 @@ export enum Country{
 }
 
 export const Person =(props: Props)=>{
+
+    //definit atype for state
+    const [name, setName] = useState<string>("Fatemeh")
+    setName("fatemeh")
     return (
     <div>
         <h1>Name : {props.name}</h1>
