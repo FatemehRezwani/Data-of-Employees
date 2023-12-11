@@ -3,6 +3,13 @@ import './App.css';
 import { Country, Person } from './Person';
 
 function App() {
+
+  // difinit a type fpr function
+  const getAge = (name: string):number =>{
+    return 23
+  }
+
+  const age:number = getAge("fatemeh")
   return (
     <div className="App">
       <Person 
