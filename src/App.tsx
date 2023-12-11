@@ -10,6 +10,7 @@ function App() {
   }
 
   const age:number = getAge("fatemeh")
+  
   return (
     <div className="App">
       <Person 
